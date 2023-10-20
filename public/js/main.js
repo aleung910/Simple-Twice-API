@@ -14,7 +14,7 @@ async function deleteRapper(){
     const sName = this.parentNode.childNodes[1].innerText
     const bName = this.parentNode.childNodes[3].innerText
     try{
-        const response = await fetch('deleteRapper', {
+        const response = await fetch('deleteAlbum', {
             method: 'delete',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

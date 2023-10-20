@@ -28,7 +28,7 @@ app.get('/',(request, response)=>{
     .catch(error => console.error(error))
 })
 
-app.post('/addRapper', (request, response) => {
+app.post('/addAlbum', (request, response) => {
     db.collection('rappers').insertOne({
     coverImage : request.body.coverImage,
     artist: request.body.artist,
@@ -61,11 +61,11 @@ app.put('/addOneLike', (request, response) => {
     .catch(error => console.error(error))
 })
 
-app.delete('/deleteRapper', (request, response) => {
+app.delete('/deleteAlbum', (request, response) => {
     db.collection('rappers').deleteOne({artist: request.body.artistS})
     .then(result => {
-        console.log('Rapper Deleted')
-        response.json('Rapper Deleted')
+        console.log('Album Deleted')
+        response.json('Album Deleted')
     })
     .catch(error => console.error(error))
 
