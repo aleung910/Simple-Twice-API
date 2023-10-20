@@ -1,0 +1,91 @@
+html,body {
+    height: 100%;
+    }
+    
+  html {
+    font-size: 125%;
+    line-height: 1.4;
+    font-family: 'Limelight', sans-serif;}
+    
+  body {
+    color:#c95f78;
+    display: inline-block;
+    box-sizing: border-box;
+    display: grid;
+    gap: 1rem;
+    margin: 0;
+    padding: 1rem;
+    background: radial-gradient(circle at 19% 108%,rgba(251, 250, 215, 1), rgba(255,144,168,1));
+    background-attachment: fixed;
+  }
+  
+  h1, h2 {
+      margin: 0;
+      color:#c95f78;
+  }
+  .AddingInfo {
+      max-width: fit-content;
+  }
+    
+    img{
+      display: block;
+      max-width: 80%;
+      max-height: 80%;
+      border-radius: 5px;
+    }
+  
+    button{
+      display:inline-block;
+      padding:0.5em 3em;
+      border:0.16em solid #a8bfff;
+      margin:0 0.3em 0.3em 0;
+      box-sizing: border-box;
+      text-decoration:none;
+      text-transform:uppercase;
+      font-family:'Roboto',sans-serif;
+      font-weight:400;
+      color:white;
+      text-align:center;
+      transition: all 0.15s;
+      background-color: #ffa7bf;
+      }
+      button:hover{
+      color:#DDDDDD;
+      border-color:#DDDDDD;
+      }
+      button:active{
+      color:#bdecff;
+      border-color:#BBBBBB;
+      }
+      
+      @media all and (max-width:30em){
+      button{
+      display:block;
+      margin:0.4em auto;
+      }
+      }
+    
+    input[type="text"] {
+      display: inline-block;
+      padding: 0.5em 1em;
+      border: 0.16em solid #c95f78;
+      margin: 0 0.3em 0.3em 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #000000; /* Text color */
+      background-color: #FFFFFF; /* Background color */
+      transition: all 0.15s;
+    }
+    
+    input[type="text"]:hover {
+      border-color: #DDDDDD;
+    }
+    
+    input[type="text"]:focus {
+      outline: none;
+      border-color: #BBBBBB;
+    }
+  
+  
+  

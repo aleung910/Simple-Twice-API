@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>API Album Uploader</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <section data-position="add-quote">
+        <h2>Add a Album into the Database</h2>
+            <form action="/addRapper" method="POST">
+            <input type="text" placeholder="Cover Image URL" name="coverImage" />
+            <input type="text" placeholder="Artist's Name" name="artist">
+            <input type="text" placeholder="Album's Title" name="title">
+            <button type="submit">Add Album</button>
+        </form>
+   
+    <ul class="rappers">
+    <% for(let i=0; i < info.length; i++) {%>
+        <li class="rapper">
+            <span><%= info[i].artist %></span>
+            <span><%= info[i].title %></span>
+            <span><%= info[i].likes %></span>
+            <img src="<%= info[i].coverImage %>" alt="<%= info[i].coverImage %> Cover" />
+            <span class='fa fa-thumbs-up' ></span>
+            <span class='fa fa-trash'></span>
+        </li>
+        <script>
+            console.log("Cover Image URL:", '<%= info[i].coverImage %>');
+        </script>
+    <% } %>
+    </ul>
+    
+    <script src='js/main.js'></script>
+</body>
+</html>
