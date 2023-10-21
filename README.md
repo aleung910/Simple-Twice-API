@@ -25,7 +25,7 @@ This project serves as a CRUD (Create, Read, Update, Delete) API for managing al
 ## Lessons Learned
 - MongoDB Proficiency: This project provided me with a deep dive into MongoDB. I learned how to set up and interact with a NoSQL database, including creating collections, performing CRUD operations, and utilizing advanced querying techniques.
 
--Node.js and Express Integration: This was my first experience using Node.js and Express to build a full-fledged web application. I learned how to leverage these technologies to create a robust backend, handle routes, and middleware, and integrate with MongoDB.
+- Node.js and Express Integration: This was my first experience using Node.js and Express to build a full-fledged web application. I learned how to leverage these technologies to create a robust backend, handle routes, and middleware, and integrate with MongoDB.
 
 - Dynamic Server Updates: Implementing dynamic updates on the server side was a significant milestone for me. I learned how to efficiently handle user input, initiate API requests, and dynamically update the page content, enhancing the user experience.
 
