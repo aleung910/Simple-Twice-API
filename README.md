@@ -1,4 +1,4 @@
-#SIMPLE TWICE ALBUM SORTER USING CRUD
+# ALBUM-COLLECTOR-FOR-TWICE-WITH-CRUD
 This project serves as a CRUD (Create, Read, Update, Delete) API for managing albums. It allows users to dynamically add, update, and delete albums, with the data being stored in a MongoDB database. 
 I used it specifically for the group TWICE but users are able to use it for whatever albums they choose. 
 
